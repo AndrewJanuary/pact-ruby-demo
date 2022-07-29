@@ -11,7 +11,7 @@ describe TestMessageConsumer, pact: true do
   # See app/producers/test_message_producer.rb.
 
   expected_payload = {
-    "email": "Jane@example.com",
+    "email": "jane@example.com",
     "first_name": "Jane",
     "last_name": "Doe"   
   }
