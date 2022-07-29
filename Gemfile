@@ -9,4 +9,6 @@ group :development, :test do
   gem 'pact'
 
   gem 'pact-message'
+
+  gem 'rake'
 end
