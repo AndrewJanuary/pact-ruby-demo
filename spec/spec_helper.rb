@@ -12,6 +12,14 @@
 # the additional setup, and require it from the spec files that actually need
 # it.
 #
+
+
+# require test dependencies
+require "pact/message"
+
+# load additional helpers
+require_relative 'support/pact_spec_helper'
+
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
