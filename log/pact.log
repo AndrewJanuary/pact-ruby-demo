@@ -1,0 +1,9 @@
+# Logfile created on 2023-02-09 19:42:49 +0000 by logger.rb/v1.4.3
+I, [2023-02-09T19:42:49.857092 #48830]  INFO -- : Running example 'Verifying a pact between Test Message Consumer and Test Message Producer Given Class1 updated has matching content'
+I, [2023-02-09T19:42:49.857543 #48830]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2023-02-09T19:42:49.857570 #48830] DEBUG -- : body :{"description":"updated","providerStates":[{"name":"Class1","params":{}}],"metadata":null}
+I, [2023-02-09T19:45:49.705091 #53882]  INFO -- : Running example 'Verifying a pact between Test Message Consumer and Test Message Producer Given Class1 created;updated has matching content'
+I, [2023-02-09T19:45:49.705755 #53882]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json"}, see debug logs for body
+D, [2023-02-09T19:45:49.705791 #53882] DEBUG -- : body :{"description":"created;updated","providerStates":[{"name":"Class1","params":{}}],"metadata":null}
+I, [2023-02-09T19:45:49.711473 #53882]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json"}, see debug logs for body
+D, [2023-02-09T19:45:49.711504 #53882] DEBUG -- : body: {"contents":[{"first_name":"John","last_name":"Doe"},{"hello":"world"}]}
