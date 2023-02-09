@@ -7,19 +7,28 @@
   },
   "messages": [
     {
-      "description": "a customer created message",
+      "description": "created;updated",
       "providerStates": [
         {
-          "name": "A customer is created",
+          "name": "Class1",
+          "params": {
+          }
+        },
+        {
+          "name": "Class2",
           "params": {
           }
         }
       ],
-      "contents": {
-        "email": "jane@example.com",
-        "first_name": "Jane",
-        "last_name": "Doe"
-      },
+      "contents": [
+        {
+          "first_name": "John",
+          "last_name": "Doe"
+        },
+        {
+          "hello": "world"
+        }
+      ],
       "matchingRules": {
       }
     }

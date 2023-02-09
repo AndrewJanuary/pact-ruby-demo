@@ -1,12 +1,13 @@
 class TestMessageProducer
-
-def publish_message()
-  message = {
-    "email": "jane@example.com",
-    "title": "Miss",
-    "first_name": "Jane",
-    "surname": "Doe"   
-  }
-end
-
+  def publish_message
+    [
+      {
+        "first_name": "John",
+        "last_name": "Doe"
+      },
+      {
+        "hello": "world"
+      }
+    ]
+  end
 end

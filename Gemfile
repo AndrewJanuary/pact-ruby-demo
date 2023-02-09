@@ -8,7 +8,9 @@ group :development, :test do
 
   gem 'pact'
 
-  gem 'pact-message'
+  gem 'pact-message', git: 'https://github.com/Mifrill/pact-message-ruby', branch: 'feature/messages'
 
   gem 'rake'
+
+  gem 'byebug'
 end
